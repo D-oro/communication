@@ -1,0 +1,25 @@
+.feelingsBox{
+    background-color: thistle;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feelingsRow{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    /* padding: 2%; */
+}
+
+.feelingsItem{
+    background-color: aquamarine;
+    height:fit-content;
+    width: fit-content;
+    font-size: medium;
+    padding: 1.5%;
+}

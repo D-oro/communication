@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { Feelings } from './components/Feelings';
+import { Needs } from './components/Needs';
 import './App.css';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, [])
+
+  const fetchData = function(){
+    const request = fetch("https://d-oro.github.io/NVC/feelingsAndNeeds.json")
+    .then(response => response.json())
+    .then(data => setData(data));
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Feelings</h1>
+      <Feelings data={data} />
+      <br></br>
+      <h1>Needs</h1>
+      <Needs data={data} />
     </div>
   );
 }
