@@ -10,6 +10,7 @@ export const Info = () => {
                 He noticed the inherent judgments in our language, and how they often get in the way of hearing one another. 
                 Instead, when we learn to express <i>observations, feelings, and needs</i> and finally formulate <i>requests</i>,
                 we have a much better chance to be able to connect to one another and meet each others needs. 
+                It's an incredibly powerful tool for conflict resolution and increasing your ability to empathise with yourself and others.
             </p>
             <p>
                 I really recommend reading his books, but for a short introduction, here's a Ted Talk by another NVC practitioner:
