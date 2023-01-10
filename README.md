@@ -1,5 +1,12 @@
+# Hi, this is a tool I've built for NVC practice. you can learn all about what that is here: 
+https://d-oro.github.io/communication/ 
+
+### You're welcome to use the APIs I've created for this project, you can find them here:
+https://d-oro.github.io/NVC/needs.json
+https://d-oro.github.io/NVC/feelings.json
+
+## note to future self:
 ### installations
-- npm install react-bootstrap bootstrap
 - npm intall react-router-dom
 
 # Getting Started with Create React App
