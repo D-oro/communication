@@ -1,18 +1,23 @@
 .feelingsBox{
-    background-color: thistle;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    border: dashed #A0B2CD 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .feelingsRow{
-    background-color: bisque;
     display: inline-flex;
 }
 
 .feelingsItem{
-    background-color: aquamarine;
+    background-color: #E1E7F0;
+    border: solid gainsboro 2px;
     padding: 5px;
     margin: 5px;
+    font-size: medium;
+    letter-spacing: 0.5px;
 }

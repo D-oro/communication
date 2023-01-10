@@ -1,5 +1,6 @@
 ### installations
 - npm install react-bootstrap bootstrap
+- npm intall react-router-dom
 
 # Getting Started with Create React App
 

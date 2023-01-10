@@ -1,16 +1,20 @@
-import { Needs } from './components/Needs';
-import { Feelings } from './components/Feelings';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { NavBar } from './components/NavBar/NavBar';
+import { Home } from "./components/Home";
+import { Info } from "./components/Info";
 import './App.css';
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Feelings</h1>
-      <Feelings />
-      <br></br>
-      <h1>Needs</h1>
-      <Needs />
+      <Router>
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="info" element={<Info/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

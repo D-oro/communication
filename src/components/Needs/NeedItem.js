@@ -34,9 +34,10 @@ export const NeedItem = ({needs}) => {
 
         return(
             <div>
+                <h1>Needs</h1>
                 {needItems}
-                <p>I have a need for {selectedNeeds}</p>
-                <button onClick={resetNeeds}>reset needs</button>
+                <h2>I have a need for {selectedNeeds}</h2>
+                <button onClick={resetNeeds}>reset</button>
             </div>
         )
 };

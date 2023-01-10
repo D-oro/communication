@@ -1,0 +1,23 @@
+nav{
+    background-color: #E1F0EA;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid #dae1e6;
+    letter-spacing: 1.5px;
+}
+
+.navlink{
+    color: #414754;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navlink:hover{
+    text-decoration: none;
+    font-size: large;
+    color: cornflowerblue;
+}

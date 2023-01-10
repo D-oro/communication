@@ -1,16 +1,23 @@
 .needsBox{
-    background-color: thistle;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    border: dashed #A0C8CD 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .needsRow{
-    background-color: bisque;
     display: inline-flex;
 }
+
 .needsItem{
-    background-color: aquamarine;
+    background-color: #E1EEF0;
+    border: solid gainsboro 2px;
     padding: 5px;
     margin: 5px;
+    font-size: medium;
+    letter-spacing: 0.5px;
 }
