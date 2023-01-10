@@ -13,7 +13,7 @@ export const Info = () => {
                 It's an incredibly powerful tool for conflict resolution and increasing your ability to empathise with yourself and others.
             </p>
             <p>
-                I really recommend reading his books, but for a short introduction, here's a Ted Talk by another NVC practitioner:
+                I really recommend reading his books, but for a short introduction, here's a Ted Talk by Maria Engels about NVC and self-awareness:
             </p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/cZM6ZLWm2eA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <h4>
