@@ -1,0 +1,16 @@
+.needsBox{
+    background-color: thistle;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.needsRow{
+    background-color: bisque;
+    display: inline-flex;
+}
+.needsItem{
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 5px;
+}
