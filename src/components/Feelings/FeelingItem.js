@@ -34,9 +34,9 @@ export const FeelingItem = ({feelings}) => {
 
         return(
             <div>
-                <h1>Feelings</h1>
+                <h2>Feelings</h2>
                 {feelingItems}
-                <h2>I'm feeling {selectedFeelings}</h2>
+                <h3>I'm feeling {selectedFeelings}</h3>
                 <button onClick={resetFeelings}>reset</button>
             </div>
         )

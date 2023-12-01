@@ -11,8 +11,8 @@ function App() {
       <Router>
         <NavBar/>
         <Routes>
-          <Route path="/communication" element={<Home/>}/>
           <Route path="/info" element={<Info/>}/>
+          <Route path="/communication" element={<Home/>}/>
         </Routes>
       </Router>
     </div>

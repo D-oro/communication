@@ -3,9 +3,10 @@ import { Needs } from "./Needs";
 
 export const Home = () => {
     return(
-        <div className="App">
+        <main className="App">
+            <h1>What are you feeling and needing?</h1>
             <Feelings />
             <Needs />
-        </div>
+        </main>
     )
 };

@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(purple-900);
 }
+
+/* 
+letter-spacing: 0.09em;
+word-spacing: 0.3em; 
+line-height: 1.5em;  */
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root {
+  font-size: 10px;
+
+  --background: #fef4f0;
+
+  --purple-900: #27204E;
+  --purple-800: #2b2356;
+  --purple-700: #393168;
+  --purple-600: #484078;
+  --purple-500: #595189;
+  --purple-400: #6C639A;
+  --purple-300: #8078AB;
+  --purple-250: #968FBC; /* contrast 4.9 with --purple-900 */
+  --purple-200: #AEA8CD; /* contrast 6.6 */
+  --purple-150: #C7C3DD; /* contrast 8.7 */
+  --purple-100: #E2E0EE;
+
+  --teal-900: #203345;
+  --teal-800: #263D53;
+  --teal-700: #2C4760;
+  --teal-600: #33516E;
+  --teal-500: #40668a;
+  --teal-400: #5C80A1;
+  --teal-300: #7D9CB9; /* contrast 4.5 with --teal-900 and 5.2 with --purple-900 */
+  --teal-200: #A3BAD0; /* contrast 6.4 with --teal-900 and 7.4 with --purple-900 */
+  --teal-100: #E6EDF3; /* contrast 10.9 with --teal-900 */
+
+  --ocean-900: #223131;
+  --ocean-850: #334949;
+  --ocean-800: #446262;
+  --ocean-750: #547A7A;
+  --ocean-700: #659393;
+  --ocean-650: #76ABAB; /* contrast 5.2 with ocean-900 and 5.8 with --purple-900 */
+  --ocean-600: #87C4C4; /* contrast 6.9 with ocean-900 and 7.6 with --purple-900 */
+  --ocean-550: #98DCDC; /* contrast 8.7 with ocean-900 */
+  --ocean-500: #a8f5f5; 
+  --ocean-400: #BAF7F7;
+  --ocean-300: #CBF9F9;
+  --ocean-200: #DCFBFB;
+  --ocean-150: #E5FCFC;
+  --ocean-100: #F6FEFE;
 }

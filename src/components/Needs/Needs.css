@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 0.5rem;
     border: dashed #A0C8CD 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .needsRow{
@@ -15,9 +15,8 @@
 
 .needsItem{
     background-color: #E1EEF0;
-    border: solid gainsboro 2px;
-    padding: 5px;
-    margin: 5px;
+    border: solid gainsboro 0.2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     font-size: medium;
-    letter-spacing: 0.5px;
 }

@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    border: dashed #A0B2CD 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 0.5rem;
+    border: dashed #A0B2CD 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .feelingsRow{
@@ -15,9 +15,8 @@
 
 .feelingsItem{
     background-color: #E1E7F0;
-    border: solid gainsboro 2px;
-    padding: 5px;
-    margin: 5px;
+    border: solid gainsboro 0.2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     font-size: medium;
-    letter-spacing: 0.5px;
 }

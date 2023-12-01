@@ -1,23 +1,84 @@
-nav{
-    background-color: #E1F0EA;
-    height: 70px;
+header {
+    width: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    background-color: var(--ocean-400);
+    letter-spacing: 0.04em;
+    word-spacing: 0.1em; 
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--ocean-200);
+    /* border-left: 0.3rem solid var(--ocean-600); */
+    box-shadow: 1px 2px 5px var(--ocean-550);
+  }
+  
+
+  .navlink {
+    text-decoration: none;
+    color: var(--ocean-900);
+    padding: 2rem;
+    font-size: 1.7rem;
+    width: 100%;
+    display: flex;
     align-items: center;
-    border-bottom: 4px solid #dae1e6;
-    letter-spacing: 1.5px;
-}
-
-.navlink{
-    color: #414754;
-    text-decoration: none;
-    font-size: large;
+    justify-content: flex-start;
     font-weight: bold;
-}
-
-.navlink:hover{
+    border-bottom: 0.3rem solid var(--ocean-200);
+    /* border-right: 0.3rem solid var(--ocean-600); */
+    /* border-left: 0.3rem solid var(--ocean-600); */
+    /* border-collapse: collapse; */
+    box-shadow: 1px 2px 5px var(--ocean-550);
+  }
+  
+  .navlink:hover {
+    background-color: var(--ocean-100);
+  }
+  
+  .active {
+    font-weight: bold;
+    background-color: var(--ocean-100);
+    border-bottom: 0.5rem solid var(--ocean-600);
+  }
+  
+/* .navlink{
+    color: var(--purple-900);
+    background-color: var(--ocean-300);
+    border-bottom: 0.3rem solid var(--ocean-300);
+    border-left: 0.3rem solid var(--ocean-600);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
     text-decoration: none;
-    font-size: large;
-    color: cornflowerblue;
-}
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    &:hover {
+        background-color: var(--ocean-500);
+        border-bottom: 0.3rem solid var(--ocean-550);
+        text-decoration: none;
+        font-size: 1.7rem;
+    }
+} */
+
+/* .active {
+    background-color: var(--ocean-500);
+} */
+
+/* .navlink:hover{
+    background-color: var(--ocean-500);
+    border-bottom: 0.3rem solid var(--ocean-550);
+    text-decoration: none;
+    font-size: 1.7rem;
+} */
