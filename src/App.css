@@ -1,23 +1,8 @@
-/* h1{
-  color: #414754;
-  font-size: 3rem;
-}
-
-h2{
-  padding: 2rem;
-  font-size: large;
-  font-weight: bold;
-  color: #414754;
-} */
 
 p {
   font-size: 1.7rem;
   text-align: left;
   line-height: 1.5em; 
-}
-
-a{
-  color: darkgray;
 }
 
 button{
@@ -34,7 +19,6 @@ main{
 }
 
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;

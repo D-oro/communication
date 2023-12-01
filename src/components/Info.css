@@ -1,23 +1,27 @@
-
-table {
-  text-align: left;
-  font-size: 1.6rem;
+.info-main {
+  display: flex;
+  width: inherit;
+  
 }
 
-table {
-  max-width: 100%;
-  border-collapse: collapse;
+.info-text {
+  max-width: 50%;
+  padding: 0 3%;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 0.5rem;
-  text-align: left;
-  width: auto;
+.info-video {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
 }
 
-th {
-  background-color: #4CAF50;
-  color: white;
+.youtube-video {
+  aspect-ratio: 16/9; 
+  padding-top: 40;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  padding-top: 5%;
 }
-
